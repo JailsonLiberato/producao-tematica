@@ -1,0 +1,11 @@
+.conteudo{
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  min-height: 580px;
+}
+
+.page{
+  min-height: 100%;
+}

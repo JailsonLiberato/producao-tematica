@@ -1,0 +1,22 @@
+.title{
+  margin-bottom: 6%;
+  font-size: 2.2em;
+  font-family: Bahnschrift;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.title .mat-icon{
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.grafico{
+  width: 100%;
+}
+.tableCaixa {
+  border-radius: 5px;
+  border: 0.5px solid #fff;
+  display: flex;
+  flex-direction: column;
+}

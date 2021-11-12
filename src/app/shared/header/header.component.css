@@ -1,0 +1,15 @@
+.cabecalho{
+  height: 2.2em;
+  background: rgb(9,9,121);
+  background: -moz-linear-gradient(90deg, rgba(9,9,121,0.896796218487395) 0%, rgba(0,255,192,1) 57%, rgba(0,212,255,1) 98%);
+  background: -webkit-linear-gradient(90deg, rgba(9,9,121,0.896796218487395) 0%, rgba(0,255,192,1) 57%, rgba(0,212,255,1) 98%);
+  background: linear-gradient(90deg, rgba(9,9,121,0.896796218487395) 0%, rgba(0,255,192,1) 57%, rgba(0,212,255,1) 98%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#090979",endColorstr="#00d4ff",GradientType=1);
+  padding: 2%;
+}
+
+.cabecalho h1{
+  color: whitesmoke;
+  font-weight: bold;
+  font-family: "Rockwell Extra Bold";
+}

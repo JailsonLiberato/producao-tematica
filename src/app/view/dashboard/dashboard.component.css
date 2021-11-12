@@ -1,0 +1,49 @@
+.card-group{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10%;
+  margin-left: 10%;
+
+}
+
+.title{
+  margin-bottom: 6%;
+  font-size: 2.2em;
+  font-family: Bahnschrift;
+}
+.mat-card{
+  width: 20%;
+  height: 15.2em;
+  text-align: center;
+  vertical-align: middle;
+  border:1px solid #000;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  flex-direction: column;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.mat-card.blue{
+  background: rgb(9,9,121);
+  background: -moz-linear-gradient(177deg, rgba(9,9,121,0.896796218487395) 0%, rgba(4,133,203,1) 45%, rgba(0,212,255,1) 100%);
+  background: -webkit-linear-gradient(177deg, rgba(9,9,121,0.896796218487395) 0%, rgba(4,133,203,1) 45%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(177deg, rgba(9,9,121,0.896796218487395) 0%, rgba(4,133,203,1) 45%, rgba(0,212,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#090979",endColorstr="#00d4ff",GradientType=1);
+}
+.mat-card.green{
+  background: rgb(34,121,9);
+  background: -moz-linear-gradient(177deg, rgba(34,121,9,0.896796218487395) 0%, rgba(0,212,255,1) 100%);
+  background: -webkit-linear-gradient(177deg, rgba(34,121,9,0.896796218487395) 0%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(177deg, rgba(34,121,9,0.896796218487395) 0%, rgba(0,212,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#227909",endColorstr="#00d4ff",GradientType=1);
+}
+.mat-card.red{
+  background: rgb(238,30,30);
+  background: -moz-linear-gradient(180deg, rgba(238,30,30,0.896796218487395) 0%, rgba(217,46,50,1) 49%, rgba(128,1,1,1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(238,30,30,0.896796218487395) 0%, rgba(217,46,50,1) 49%, rgba(128,1,1,1) 100%);
+  background: linear-gradient(180deg, rgba(238,30,30,0.896796218487395) 0%, rgba(217,46,50,1) 49%, rgba(128,1,1,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ee1e1e",endColorstr="#800101",GradientType=1);
+}
+
